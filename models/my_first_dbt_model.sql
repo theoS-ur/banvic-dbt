@@ -1,5 +1,7 @@
 
-{{config(materialized='table')}}
+{{config(materialized='table',
+catalog='dev'
+)}}
 
 with source_data as (
 
