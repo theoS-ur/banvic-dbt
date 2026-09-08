@@ -26,6 +26,7 @@ seeds:
         DATA_NASCIMENTO: string
         ENDERECO: string
         CEP: string
+        COD_LOCALIDADE: int
 
   - name: colaborador_agencia
     config:
