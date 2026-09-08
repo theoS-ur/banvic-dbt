@@ -8,8 +8,7 @@ seeds:
         COD_AGENCIA: string
         NOME: string
         ENDERECO: string
-        CIDADE: string
-        UF: string
+        COD_LOCALIDADE: int
         DATA_ABERTURA: string
         TIPO_AGENCIA: string
   
@@ -27,6 +26,7 @@ seeds:
         DATA_NASCIMENTO: string
         ENDERECO: string
         CEP: string
+        COD_LOCALIDADE: int
 
   - name: colaborador_agencia
     config:
